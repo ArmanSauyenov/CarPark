@@ -42,7 +42,7 @@ namespace CarPark.Lib.Modules
         public List<Cars> GenerateCars(out string message)
         {
             List<Cars> cars = new List<Cars>();
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Cars car = new Cars();
                 car.CarModel = "№" + rand.Next(100, 299);

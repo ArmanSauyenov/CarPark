@@ -84,6 +84,8 @@ namespace CarPark.Lib.Modules
                 Console.WriteLine("The car wasn't found");
             else
                 findCar.PrintInfo();
+
+            Console.WriteLine();
         }
     }
 }

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CarPark.Lib.Objects;
+using CarPark.Lib.Modules;
+using CarPark;
 
 namespace CarPark.Lib.Objects
 {

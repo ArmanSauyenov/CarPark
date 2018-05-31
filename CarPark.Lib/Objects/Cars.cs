@@ -27,7 +27,7 @@ namespace CarPark.Lib.Objects
                 Console.ForegroundColor = ConsoleColor.Red;
 
             Console.WriteLine();
-            Console.WriteLine($"Car Model: {CarModel} \n Car Type: {CarType} \n Issue Date: {IssueDate} \n Car's State Number: A {CarStateNumber} \n Car Status: {Status} \n");
+            Console.WriteLine($"Car Model: {CarModel} \n Car Type: {CarType} \n Issue Date: {IssueDate} \n Car's State Number: {CarStateNumber} \n Car Status: {Status} \n");
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.White;
 
